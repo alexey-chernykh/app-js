@@ -1,0 +1,95 @@
+.always-on-top{
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background-color: white;
+}
+.buttons-block{
+    margin: auto;
+    text-align: center;
+}
+.text-li{
+    position: relative;
+    float: left;
+    padding-top:calc((54px - 24px) / 2);
+    padding-bottom:calc((54px - 24px) / 2);
+}
+.btns-li{
+    position: relative;
+    float: right;
+}
+.item-container{
+    height: max-content;
+    display:contents;
+}
+.modal-background {
+    position: fixed; /* Stay in place */
+    z-index: 100; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Disable scroll, use "overflow: auto" if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-container {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    padding-right: 35px;
+    border-radius: 20px;
+    width: 50%; /* Could be more or less, depending on screen size */
+    animation-name: animatemodal;
+    animation-duration: 0.3s
+  }
+  /* Add Animation */
+@keyframes animatemodal {
+    from {opacity: 0}
+    to {opacity: 1}
+  }
+  .modal-close-button{
+    float: right;
+  }
+  .modal-title{
+    margin-left: 10px;
+  }
+  .modal-title h1{
+    font-size: 24pt;
+  }
+  .modal-body{
+    margin-top: 25px;
+  }
+  .remove-text{
+    font-size: 16pt;
+    margin-left: 10px;
+  }
+
+  .list-group-item.active{
+    background-color: lightgray !important;
+    border-color: lightgray !important;
+    color: black !important;
+  }
+  .list-group-item:hover{
+    background-color: whitesmoke !important;
+    border-color: whitesmoke !important;
+    color: black !important;
+  }
+  .list-group-item.active:hover{
+    background-color: rgb(197, 197, 197) !important;
+    border-color: rgb(197, 197, 197) !important;
+    color: black !important;
+  }
+  .w-full{
+    width: 99%;
+  }
+  .w-50-m{
+    width: 45%;
+  }
+  .remove-buttons{
+    margin: auto;
+    text-align: center;
+  }
+ 
