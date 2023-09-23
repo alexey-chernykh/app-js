@@ -4,6 +4,10 @@
   z-index: 99;
   background-color: white;
 }
+.nav-obj{
+  text-decoration: none;
+  color: black;
+}
 .buttons-block{
     margin: auto;
     text-align: center;
